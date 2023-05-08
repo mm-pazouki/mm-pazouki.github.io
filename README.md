@@ -120,29 +120,38 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-Install <a href="https://git-scm.com/downloads">git</a>
-Install <a href="https://code.visualstudio.com/download">VS Code</a>
+
+
+Example command:
+
+```sh
+ npm install
+```
+ 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+
+Example commands:
+
 ```sh
-  cd my-folder
-  git clone https://github.com/over-geek/mm-pazouki.github.io.git
+  cd Portfolio
+  git clone git@github.com:mm-pazouki/Portfolio.git
 ```
---->
+
 
 ### Install
 
-To install this project, set up linter by installing the following in project directory:
+Install this project with:
 
-Terminal commands:
+
+Example command:
 
 ```sh
-  npm init -y
-  npx hint .
-  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+  cd Portfolio
+  gem install
 ```
 --->
 
@@ -150,12 +159,14 @@ Terminal commands:
 
 To run the project, execute the following command:
 
-Open liveserver in VS Code
+Example command:
 
+```sh
+  rails server
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- AUTHORS -->
 
